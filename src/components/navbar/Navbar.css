@@ -1,0 +1,34 @@
+.navbar_container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.navbar_cart--container{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart_icon{
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.navabar_cart--count{
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 100, 100);
+    border-radius: 100%;
+    position: absolute;
+    right: 100px;
+    top: 6px;
+
+}

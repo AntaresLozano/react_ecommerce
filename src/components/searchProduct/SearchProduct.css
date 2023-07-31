@@ -1,0 +1,22 @@
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    padding: 10px 40px 10px 15px; /* Espaciado interior del input */
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Ajusta el radio para obtener bordes redondeados */
+    font-size: 16px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa; /* Color del ícono */
+    pointer-events: none; /* Evitar interacción con el ícono */
+  }

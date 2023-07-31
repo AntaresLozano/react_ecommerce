@@ -1,0 +1,6 @@
+.home_container{
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,30 @@
+.filter_container {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+select:hover {
+    border-color: #999;
+}
+
+select:focus {
+    border-color: #555;
+}
+
+/* Personalizar el aspecto de las opciones desplegadas */
+select option {
+    font-size: 14px;
+    color: #333;
+    background-color: #f7f7f7;
+}
